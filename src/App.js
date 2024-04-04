@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer"
+import Banner from "./components/Banner"
+import Container from "./components/Container";
+import Card from "./components/Card"
+import videos from "./json/videos.json"
+import Category from "./components/Category";
+
+const categories = [
+  "Filme",
+  "Musica",
+  "Jogos",
+  "Esportes",
+  "Estudos"
+]
+
+function filterCategory(id) {
+  return videos.filter(video => video.category === categories[id])
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Banner image="home"></Banner>
+      <Container>
+
+        {
+          categories.map((category, index) =>        
+          <Category category={category}>
+            {filterCategory(index).map(video => {return <Card id={video.id} key={video.id} alt={video.title}/>})}
+          </Category>)
+        }
+
+      </Container>
+      <Footer />
+    </>
   );
 }
 
