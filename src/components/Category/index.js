@@ -3,13 +3,13 @@ import videos from "../../meu_json/videos.json"
 
 export const categories = [
   "Filme",
-  "Musica",
+  "Música",
   "Jogos",
   "Esportes",
   "Estudos"
 ]
 
-export function filterCategory(id) {
+export  function filterCategory(id) {
   return videos.filter(video => video.category === categories[id])
 }
 
