@@ -14,17 +14,24 @@
     "category": "Filme"
   },
   {
+    "id": "qeL_VswdlGo",
+    "title": "Need For Speed - O Filme",
+    "url": "https://www.youtube.com/watch?v=qeL_VswdlGo",
+    "cover": "https://img.youtube.com/vi/qeL_VswdlGo/maxresdefault.jpg",
+    "category": "Filme"
+  },
+  {
+    "id": "K4xl1T_lyiM",
+    "title": "Sabotage - Mun'Ra",
+    "url": "https://www.youtube.com/watch?v=K4xl1T_lyiM",
+    "cover": "https://img.youtube.com/vi/K4xl1T_lyiM/maxresdefault.jpg",
+    "category": "Música"
+  },
+  {
     "id": "AP55-ysy6xo",
     "title": "Save Me",
     "url": "https://www.youtube.com/watch?v=AP55-ysy6xo",
     "cover": "https://img.youtube.com/vi/AP55-ysy6xo/maxresdefault.jpg",
-    "category": "Música"
-  },
-  {
-    "id": "L-iepu3EtyE",
-    "title": "Aerials",
-    "url": "https://www.youtube.com/watch?v=L-iepu3EtyE",
-    "cover": "https://img.youtube.com/vi/L-iepu3EtyE/maxresdefault.jpg",
     "category": "Música"
   },
   {
@@ -40,6 +47,41 @@
     "url": "https://www.youtube.com/watch?v=7nWxZin959o",
     "cover": "https://img.youtube.com/vi/7nWxZin959o/maxresdefault.jpg",
     "category": "Jogos"
+  },
+  {
+    "id": "TC6N1zHvXpU",
+    "title": "ESL One Cologne Major Final SK x Liquid",
+    "url": "https://www.youtube.com/watch?v=TC6N1zHvXpU",
+    "cover": "https://img.youtube.com/vi/TC6N1zHvXpU/maxresdefault.jpg",
+    "category": "Jogos"
+  },
+  {
+    "id": "MMMA3mByweo",
+    "title": "Blast Pro Series Final - SK x Astralis",
+    "url": "https://www.youtube.com/watch?v=MMMA3mByweo",
+    "cover": "https://img.youtube.com/vi/MMMA3mByweo/maxresdefault.jpg",
+    "category": "Jogos"
+  },
+  {
+    "id": "S9uPNppGsGo",
+    "title": "Curso em Vídeo Python",
+    "url": "https://www.youtube.com/watch?v=S9uPNppGsGo",
+    "cover": "https://img.youtube.com/vi/S9uPNppGsGo/maxresdefault.jpg",
+    "category": "Estudos"
+  },
+  {
+    "id": "i6Oi-YtXnAU",
+    "title": "Curso de JavaScript",
+    "url": "https://www.youtube.com/watch?v=i6Oi-YtXnAU",
+    "cover": "https://img.youtube.com/vi/i6Oi-YtXnAU/maxresdefault.jpg",
+    "category": "Estudos"
+  },
+  {
+    "id": "XKHEtdqhLK8",
+    "title": "Python Full Course for Free",
+    "url": "https://www.youtube.com/watch?v=XKHEtdqhLK8",
+    "cover": "https://img.youtube.com/vi/XKHEtdqhLK8/maxresdefault.jpg",
+    "category": "Estudos"
   }
 
 ]

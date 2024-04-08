@@ -5,7 +5,6 @@ export const categories = [
   "Filme",
   "Música",
   "Jogos",
-  "Esportes",
   "Estudos"
 ]
 
