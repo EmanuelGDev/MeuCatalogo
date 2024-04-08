@@ -1,15 +1,23 @@
 //Header
-
+import {Link} from "react-router-dom"
 import styles from "./Header.module.css";
 
 function Header() {
   return(
     <header className={styles.header}>
-      <span>RandomFlix</span>
+      <Link to="/">
+        <span>RandomFlix</span>
+      </Link>
       <nav>
-        <a href ="#">Home</a>
-        <a href ="#">Assistir</a>
-        <a href="#">Conheca o criador</a>
+        <Link to="/">
+          Home
+        </Link>
+        <Link to="/watch">
+          Assistir
+        </Link>
+        <Link to="/criador">
+          Conheça o criador
+        </Link>
       </nav>
     </header>
   );
