@@ -2,8 +2,8 @@ import styles from "./Category.module.css"
 import videos from "../../meu_json/videos.json"
 
 export const categories = [
-  "Filme",
-  "Música",
+  "Filmes",
+  "Músicas",
   "Jogos",
   "Estudos"
 ]
