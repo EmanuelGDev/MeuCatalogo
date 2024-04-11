@@ -1,10 +1,19 @@
 import styles from "./Criador.module.css"
+import Header from "../../components/Header/index"
+import Footer from "../../components/Footer";
+import Container from "../../components/Container";
+import Creator from "../../components/Creator";
+
 
 function Criador () {
   return( 
-    <section className={styles.criador}>
-      <h1> Emanuel </h1>
-    </section>
+    <>
+      <Header />
+      <Container>
+        <Creator />
+      </Container>
+      <Footer  />
+    </>
   );
 }
 

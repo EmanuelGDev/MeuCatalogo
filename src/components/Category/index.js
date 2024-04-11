@@ -5,7 +5,7 @@ export const categories = [
   "Filmes",
   "Músicas",
   "Jogos",
-  "Estudos"
+  "Estudos",
 ]
 
 export  function filterCategory(id) {
