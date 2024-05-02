@@ -3,6 +3,7 @@ import Header from "../../components/Header/index"
 import Footer from "../../components/Footer";
 import Container from "../../components/Container";
 import Creator from "../../components/Creator";
+import Social_card from "../../components/Social_Card";
 
 
 function Criador () {
@@ -11,6 +12,7 @@ function Criador () {
       <Header />
       <Container>
         <Creator />
+        <Social_card />
       </Container>
       <Footer  />
     </>
